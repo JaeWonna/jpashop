@@ -53,4 +53,5 @@ public class MemberController {
     // 아 몰라몰라
     
     // 로컬 저장소에서 원격 저장소로 intellij안에서 편집한후 자기 원격 저장소로 수정 성공했습니다
+    // 수정중입니다
 }

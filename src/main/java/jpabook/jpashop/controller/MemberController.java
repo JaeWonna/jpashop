@@ -48,4 +48,6 @@ public class MemberController {
         model.addAttribute("members", members);
         return "members/memberList";
     }
+
+    // 로컬 저장소에서 원격 저장소로 푸시 가능???
 }

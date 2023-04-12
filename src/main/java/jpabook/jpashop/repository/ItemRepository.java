@@ -15,9 +15,9 @@ public class ItemRepository {
 
     public void save(Item item) {
         if(item.getId() == null) {
-            em.persist(item);
+            em.persist(item); // 새롭게 저장한다
         } else {
-            em.merge(item);
+            em.merge(item); // DB에서 원래 있던 것을 불러와서 수정 후 저장한다 머지가 도대체 머지
         }
     }
 
